@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<!-- basedir -->
-	<basedir path="." />
+	<basedir path="data/" />
 	<!-- sounds -->
 	<sound key="explosion" file="explosion.wav" />
 	<sound key="grow" file="sfx.wav" />

@@ -51,11 +51,11 @@ public class Player extends StaticActor {
 		if (check(FIRE)) {
 			Bullet b = null;
 			if (growLevel < 2) {
-				b = new Bullet(x, y, "singleBullet.png", angle, scale);
+				b = new Bullet(x, y, "data/singleBullet.png", angle, scale);
 			} else if (growLevel > 2 && growLevel < 4) {
-				b = new Bullet(x, y, "doubleBullet.png", angle, scale);
+				b = new Bullet(x, y, "data/doubleBullet.png", angle, scale);
 			} else {
-				b = new Bullet(x, y, "tripleBullet.png", angle, scale);
+				b = new Bullet(x, y, "data/tripleBullet.png", angle, scale);
 			}
 			b.setCentered(true);
 			ME.world.add(b, World.GAME);
