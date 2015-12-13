@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- basedir -->
+	<basedir path="." />
+	<!-- sounds -->
+	<sound key="explosion" file="explosion.wav" />
+	<sound key="grow" file="sfx.wav" />
+	<sound key="fire" file="fire.wav" />
+	<!-- songs -->
+	<!-- images -->
+	<image key="menu" file="menu.png" />
+	<image key="background" file="background.png" />
+	<image key="backgroundMoving" file="backgroundMoving.png" />
+	<image key="player" file="greenPlayer.png" />
+	<image key="enemyOne" file="enemyOne.png" />
+	<image key="enemyTwo" file="enemyTwo.png" />
+	<image key="enemyThree" file="enemyThree.png" />
+
+
+	<!-- sheets -->
+	<sheet key="explosion" file="explosion.png" width="50" height="50" />
+
+	<!-- fonts -->
+	<!-- map -->
+
+</resources>
